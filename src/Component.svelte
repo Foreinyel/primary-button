@@ -9,8 +9,13 @@
     if (onClick) {
       onClick();
     }
-  }}><slot /></button
->
+  }}>
+{#if children}
+{children}
+{:else}
+<slot />
+{/#if}  
+</button>
 
 <style>
   .button {
