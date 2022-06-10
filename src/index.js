@@ -4,7 +4,10 @@ const mount = (el, props) => {
   console.log(props)
   new Component({
     target: el,
-    props,
+    props: {
+      ...props,
+      $$slots: props.children
+    },
   });
 };
 
