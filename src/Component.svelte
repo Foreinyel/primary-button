@@ -14,7 +14,7 @@
 {children}
 {:else}
 <slot />
-{/#if}  
+{/if}  
 </button>
 
 <style>
