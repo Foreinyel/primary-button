@@ -1,5 +1,5 @@
 {
-  "name": "{{ packageName }}",
+  "name": "primary-button",
   "version": "1.0.0",
   "devDependencies": {
     "css-loader": "^5.0.1",
