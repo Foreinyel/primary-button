@@ -6,4 +6,4 @@
   onClick={() => {
     alert("button clicked");
   }}
-/>
+>Primary Button</Component>
