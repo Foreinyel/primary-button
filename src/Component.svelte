@@ -9,7 +9,7 @@
     if (onClick) {
       onClick();
     }
-  }}>{children}</button
+  }}><slot /></button
 >
 
 <style>
