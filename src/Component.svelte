@@ -19,7 +19,7 @@
 
 <style>
   .button {
-    background-color: #1890ff;
+    background-color: red;
     border-color: #1890ff;
     -webkit-appearance: button;
     color: #fff;
